@@ -1,0 +1,54 @@
+{
+  "cifp": {
+    "alumne": [
+      {
+        "alumne_id": 1,
+        "nom": "Susana",
+        "llinatges": "",
+        "data_naixement": "04-01-1983",
+        "correu": "susana@gmail.com",
+        "telefon": "612345678",
+        "adreça": "",
+        "data_matricula": "01-10-2024",
+        "curs": "INFORMATICA"
+      },
+      {
+        "alumne_id": 2,
+        "nom": "Luis",
+        "llinatges": "López",
+        "data_naixement": "01-10-2003",
+        "correu": "marc@gmail.com",
+        "telefon": "690000102",
+        "adreça": "Inca",
+        "data_matricula": "01-10-2024",
+        "curs": "DAW"
+      }
+    ],
+
+    "professor": [
+      {
+        "professor_id": 10,
+        "nom": "Xesca",
+        "llinatges": "Martín",
+        "data_naixement": "01-05-1970",
+        "correu": "xesca@paucasesnoves.cat",
+        "telefon": "",
+        "adreça": "Inca",
+        "data_incorporacio": "01-02-2000",
+        "departament": "INFORMATICA",
+        "assignatura": "Programació"
+      }
+    ],
+
+    "assignatura": [
+      {
+        "assignatura_id": 20,
+        "nom_assignatura": "Programació",
+        "cicle": "DAM",
+        "data_inici":"",  
+        "data_final": ""
+      }
+     
+    ]
+  }
+}

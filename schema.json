@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+	"properties" : {
+      "cifp": {
+      "type": "object",
+        "properties": {
+          "alumne": {
+            "type": "array",
+            "items": { 
+              "type": "object" , 
+              "required": ["alumne_id", "nom", "llinatges", "data_matricula", "curs"],
+    
+                "properties": {
+               "alumne_id": {"type": "integer"},
+               "nom": {"type": "string"},                 
+               "llinatges": {"type": "string"},
+               "data_naixement": {"type": "string"},
+       		   "correu": {"type": "string"},
+               "telefon": {"type": "string"},                "adreça": {"type": "string"},
+               "data_matricula":{"type": "string"},
+               "curs": {"type": "string"} 
+
+          }
+        }
+      },
+        "professor": {
+            "type": "array",
+            "items": {
+            "type": "object", 
+              "required": ["professor_id", "nom", "llinatges", "data_incorporacio", "departament", "assignatura" ],
+  
+                "properties" : {
+               "professor_id": {"type": "integer"},
+               "nom": {"type": "string"},                 
+               "llinatges": {"type": "string"},
+               "data_naixement": {"type": "string"},
+       		   "correu": {"type": "string"},
+               "telefon": {"type": "string"},                "adreça": {"type": "string"},
+               "data_incorporacio": {"type": "string"},
+               "departament": {
+                 "type": "string", 
+                 "enum": ["INFORMATICA", "ELECTRICITAT", "AUTOMOCIO"],
+               },
+               "assignatura": {"type": "string"}
+              }
+             }
+            }, 
+              
+  			"assignatura": {
+              "type": "array",
+                "items": {
+            	"type": "object", 
+                "required": ["assignatura_id", "nom_assignatura", "cicle"],
+                },
+                  "properties" : {
+                 "assignatura_id": {"type": "integer"},
+                 "nom_assignatura": {"type": "string"},     
+                 "cicle": {
+                   "type": "string",
+				   "enum": ["DAM", "DAW", "ASIX", "SMX", "SEIA", "ER", "AUT"],
+                    
+                  "data_inici": {"type": "string"},
+                   "data_final": {"type": "string"}
+            }
+                    
+           }
+                  
+          }
+              
+         }
+              
+        }
+          
+       }
+        
+      }
