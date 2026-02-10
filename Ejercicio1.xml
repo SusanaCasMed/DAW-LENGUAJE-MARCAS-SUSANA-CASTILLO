@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cifp SYSTEM 'cifp.dtd'>
+
+<cifp>
+<alumne alumne_id="ALUM1"> <!-- NO PUEDE SER SOLO UN NÚMERO, TIENE QUE TENER LETRAS, EJEMPLO VIDEO HACER  CON NUMERO Y CAMBIAR o poner numero en id y tipo dato cdDATA-->
+  <nom></nom>
+    <llinatges></llinatges>
+      <data_naixement></data_naixement>
+      <correu></correu>
+      <telefon></telefon>
+      <adreça></adreça>
+      <data_matricula></data_matricula>
+      <curs></curs>
+</alumne>
+    
+<professor professor_id="PROF2">
+    <nom></nom>
+    <llinatges></llinatges>
+      <data_naixement></data_naixement>
+      <correu></correu>
+      <telefon></telefon>
+      <adreça></adreça>
+      <data_incorporacio></data_incorporacio>
+      <departament tipus="INFORMATICA"></departament>
+      
+<assignatura assignatura_id="ASSIG3">
+          <nom_assignatura cicle="DAW"></nom_assignatura>
+          <data_inici></data_inici>
+          <data_final></data_final>
+</assignatura>
+</professor>
+</cifp>
